@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
+    namespace 'dev.joshi.raw_gnss'
 
     defaultConfig {
         minSdkVersion 16
